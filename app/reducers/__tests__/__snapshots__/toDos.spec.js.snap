@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select toDOs reducer 1`] = `
+Object {
+  "Martian": Object {
+    "userToDos": Array [],
+    "username": "Martian",
+  },
+}
+`;
