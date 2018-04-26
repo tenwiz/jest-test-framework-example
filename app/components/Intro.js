@@ -22,12 +22,15 @@ const styles = StyleSheet.create({
 
 export default class Intro extends Component {
   render() {
+    const { error } = this.props
+
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>
           This is a React Native snapshot test!
         </Text>
+        {error && <Text>{error}</Text>}
       </View>
     );
   }
